@@ -80,6 +80,7 @@ def	expected_sales(salesprod,iday):
 		sum1=0
 		n=0
 		n1=1
+		n2=1
 		idaystart=max(iday-P_backday,0)
 		for x in salesprod[idaystart:iday+1]:
 			sum1+=x[Csales_qty2]
