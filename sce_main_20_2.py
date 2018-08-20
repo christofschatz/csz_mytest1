@@ -172,16 +172,6 @@ def str2date1(s):
 	return date1
 
 
-# -----------------------------------
-
-def str2date2(s):
-	
-	#For dates in the format "2016-11-19"
-
-	date_s=s.split("-")
-	date1=date(int(date_s[0]),int(date_s[1]),int(date_s[2]))
-	return date1
-
 	
 # -----------------------------------
 	
